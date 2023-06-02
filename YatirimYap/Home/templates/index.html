@@ -1,3 +1,21 @@
 {% extends "base.html" %}
 {% block title %} Home {% endblock title %}
-{% block content %} <h1>Hoşgeldiniz.</h1> {% endblock content%}
+{% block content %} 
+
+<div class="container my-5">
+    <div class="jumbotron bg-gray">
+        <div class="container">
+          <h1 class="display-4">Hisse Sorgulama</h1>
+          <p class="lead">Hisse Kodunu Sorgulayarak Detaylı Bilgilere Ulaşabilirsiniz.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Hisse Kodunu Giriniz." aria-label="Example text with button addon" aria-describedby="button-addon1">
+        <button class="btn btn-outline-primary" type="button" id="button-addon1">Ara</button>
+      </div>
+      
+</div>
+{% endblock content%}
